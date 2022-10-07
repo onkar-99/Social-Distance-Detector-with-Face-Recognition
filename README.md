@@ -16,6 +16,8 @@ There has been GUI given to add employee data into the database.
 ## Implementation
 You can download the Facenet weights required for Face Recognition from [here](https://drive.google.com/file/d/1BsBvasz-oniSqmbIgPmGLjMm5V4JGmjw/view?usp=sharing) and YOLOv3 weights file from [here](https://drive.google.com/file/d/1y8Qz1oAzqLdlG1lSs8LmXgSkr6PEHPgn/view?usp=sharing). 
 Place the Facenet Face Recognition files in the Face_Recog folder and place the YOLOv3 weights file in the BASE folder
+
+Place the images of the people in your database in the Faces folder in Face_recog. Make sure to make folders with their name and put images in those folders respectively. 
 Then simply run index.py for checking output
 
 ##Deployement
@@ -24,4 +26,4 @@ You can place it in the BASE folder for the program to run successfully.
 
 ##Output
 The output below shows two camera feeds, where in both feeds people are following social distancing norms. 
-![img][]
+![img](Social-Distance-Detector-with-Face-Recognition/blob/main/Social-Distancing-Detector-project/social_distance1.PNGraw=true)
