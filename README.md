@@ -13,8 +13,14 @@ Additionally, we can connect multiple webcams at once and perform social distanc
 The intended use of this project is for commercial reasons, where we have database with people/students/employees information like their images and their contact numbers.
 There has been GUI given to add employee data into the database. 
 
+## Implementation
+You can download the Facenet weights required for Face Recognition from [here](https://drive.google.com/file/d/1BsBvasz-oniSqmbIgPmGLjMm5V4JGmjw/view?usp=sharing) and YOLOv3 weights file from [here](https://drive.google.com/file/d/1y8Qz1oAzqLdlG1lSs8LmXgSkr6PEHPgn/view?usp=sharing). 
+Place the Facenet Face Recognition files in the Face_Recog folder and place the YOLOv3 weights file in the BASE folder
+Then simply run index.py for checking output
+
 ##Deployement
-The project was converted into an exe build using PyInstaller and converted into a Desktop Application for windows. 
+The project was converted into an exe build using PyInstaller and converted into a Desktop Application for windows. The bundled exe can be downloaded from [here](https://drive.google.com/file/d/1KQWlaQMQLaBI4rgTD5VYyrcoGQCvRTPL/view?usp=sharing)
+You can place it in the BASE folder for the program to run successfully.
 
 ##Output
 The output below shows two camera feeds, where in both feeds people are following social distancing norms. 
