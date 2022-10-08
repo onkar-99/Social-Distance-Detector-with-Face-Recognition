@@ -26,4 +26,4 @@ You can place it in the BASE folder for the program to run successfully.
 
 ##Output
 The output below shows two camera feeds, where in both feeds people are following social distancing norms. 
-![img](Social-Distance-Detector-with-Face-Recognition/blob/main/Social-Distancing-Detector-project/social_distance1.PNGraw=true)
+![img](Social-Distance-Detector-with-Face-Recognition/blob/main/Social-Distancing-Detector-project/social_distance1.PNG)
