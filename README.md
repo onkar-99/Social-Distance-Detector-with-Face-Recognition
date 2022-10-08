@@ -1,5 +1,5 @@
 # Social-Distance-Detector-with-Face-Recognition
-In this repository, we would be determining if the people are following social distancing norms and then sending them email based on the output of Facial Recognition
+In this repository, we would be determining if the people are following social distancing norms and then sending them email based on the output of Facial Recognition. This is a group project done in my Final Year of Computer Engineering
 
 
 ##Introduction
@@ -20,10 +20,28 @@ Place the Facenet Face Recognition files in the Face_Recog folder and place the 
 Place the images of the people in your database in the Faces folder in Face_recog. Make sure to make folders with their name and put images in those folders respectively. 
 Then simply run index.py for checking output
 
-##Deployement
+## Deployement
 The project was converted into an exe build using PyInstaller and converted into a Desktop Application for windows. The bundled exe can be downloaded from [here](https://drive.google.com/file/d/1KQWlaQMQLaBI4rgTD5VYyrcoGQCvRTPL/view?usp=sharing)
 You can place it in the BASE folder for the program to run successfully.
 
-##Output
+## Output
 The output below shows two camera feeds, where in both feeds people are following social distancing norms. 
-![img](Social-Distance-Detector-with-Face-Recognition/blob/main/Social-Distancing-Detector-project/social_distance1.PNG)
+
+<img src="/Social-Distancing-Detector-project/social_distance1.PNG" width="50%" height="50%">
+
+In below example we got people not following social distancing norms, ie they are standing close to eachother, and hence are shown in red.
+
+<img src="/Social-Distancing-Detector-project/social_distance2.PNG" width="50%" height="50%">
+
+## Results
+The YOLO model used performs is very efficient with Person Detection
+
+<img src="/Social-Distancing-Detector-project/yoloResults.PNG" width="50%" height="50%">
+
+The results of our model are shown below along with the precision and recall achieved by us.
+
+<img src="/Social-Distancing-Detector-project/precisionRecall.PNG" width="50%" height="50%">
+
+
+
+
