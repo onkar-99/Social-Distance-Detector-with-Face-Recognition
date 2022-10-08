@@ -2,7 +2,7 @@
 In this repository, we would be determining if the people are following social distancing norms and then sending them email based on the output of Facial Recognition. This is a group project done in my Final Year of Computer Engineering
 
 
-##Introduction
+## Introduction
 Social distancing is arguably the most effective non pharmaceutical way to prevent the spread of a disease. Our goal is to develop a software which can be used to detect distance between a group of people using a webcam or from video . As per the option selected, our system will find the distance between the people and generate a green bounding box if it is permissible, and a red bounding box if social distance is not followed and send the person notifications.
 
 ## Method:
